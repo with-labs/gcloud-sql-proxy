@@ -9,7 +9,7 @@ on:
 name: Build and push image
 
 env:
-  IMAGE_NAME: gcloud-sql-proxy
+  IMAGE_NAME: ${{ github.repository }}
   REGISTRY: ghcr.io
 
 jobs:
